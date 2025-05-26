@@ -45,7 +45,7 @@ for size in sizes:
     results_randomized.append(random_time)
     results_deterministic.append(deterministic_time)
 
-    print(f"Розмір масиву: {size}")
+    print(f"Array Size: {size}")
 
     print(f"Determined QuickSort: {random_time:.4f} seconds")
 
